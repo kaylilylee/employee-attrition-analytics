@@ -72,6 +72,14 @@ The Random Forest model achieved approximately:
 
 Performance was further evaluated using a classification report, confusion matrix and ROC curve.
 
+### ROC Curve
+
+<img src="results/rf_roc_curve.png" alt="Random Forest ROC Curve" width="650">
+
+### Confusion Matrix
+
+<img src="results/rf_confusion_matrix.png" alt="Random Forest Confusion Matrix" width="650">
+
 ## Key Findings
 
 The analysis identified several factors with notable predictive relationships to employee attrition.
@@ -91,6 +99,14 @@ Important features included:
 Company Tenure showed a strong predictive association with retention when compared with Monthly Income and Job Satisfaction.
 
 Job Satisfaction and Work-Life Balance showed very little linear correlation in this dataset.
+
+### Feature Importance
+
+<img src="results/top10_rf_importances.png" alt="Random Forest Feature Importance" width="650">
+
+### Job Satisfaction by Job Role
+
+<img src="results/mean_job_satisfaction_by_role.png" alt="Mean Job Satisfaction by Job Role" width="650">
 
 ## Database Design
 
