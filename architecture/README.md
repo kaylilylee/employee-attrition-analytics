@@ -4,6 +4,8 @@ This architecture demonstrates a scalable approach for storing, processing and a
 
 ## Architecture Overview
 
+![Scalable Data Architecture](scalable_data_architecture.png)
+
 The proposed design combines batch and real-time data processing:
 
 - **Upstream HR Data Sources** provide data from HR systems, performance reviews, surveys and HR databases.
