@@ -114,6 +114,10 @@ A relational database design was developed to demonstrate how employee informati
 
 The design applies Third Normal Form (3NF) principles to reduce redundancy and improve data consistency.
 
+### Entity Relationship Diagram
+
+<img src="database/employee_database_erd.png" alt="Employee Database ERD" width="750">
+
 ## Scalable Data Architecture
 
 A conceptual distributed architecture was considered for supporting significantly larger employee datasets.
@@ -127,6 +131,10 @@ Technologies explored include:
 - Data warehouses and lakehouse architectures
 
 The architecture supports both large-scale batch analytics and near-real-time processing.
+
+### Architecture Diagram
+
+<img src="architecture/scalable_data_architecture.png" alt="Scalable Data Architecture" width="600">
 
 ## Privacy & Responsible Analytics
 
