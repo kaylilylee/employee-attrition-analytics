@@ -6,4 +6,6 @@ The database uses a normalised relational structure with the Employee table as t
 
 ## Entity Relationship Diagram
 
+![Employee Database ERD](employee_database_erd.png)
+
 The ERD demonstrates the use of primary keys and foreign keys to organise employee data and reduce unnecessary data duplication.
