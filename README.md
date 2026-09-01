@@ -162,6 +162,44 @@ Predictive models should support organisational decision-making rather than repl
 - Big Data Architecture
 - Data Privacy
 
+## Project Structure
+
+```text
+employee-attrition-analytics/
+├── architecture/
+│   ├── README.md
+│   └── scalable_data_architecture.png
+├── database/
+│   ├── README.md
+│   ├── employee_database_erd.png
+│   └── employee_queries.sql
+├── results/
+│   ├── mean_job_satisfaction_by_role.png
+│   ├── rf_confusion_matrix.png
+│   ├── rf_roc_curve.png
+│   └── top10_rf_importances.png
+├── src/
+│   └── employee_attrition_analysis.py
+├── README.md
+└── requirements.txt
+```
+
+## How to Run
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Place `employee.csv` in the project root or in a `data/` folder, then run:
+
+```bash
+python src/employee_attrition_analysis.py
+```
+
+Generated visualisations are saved to the `results/` folder.
+
 ## Disclaimer
 
 This repository is a portfolio project demonstrating data analytics, machine learning and data architecture concepts using an employee attrition scenario.
